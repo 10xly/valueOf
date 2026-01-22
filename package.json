@@ -1,0 +1,47 @@
+{
+  "name": "@resolve-es/valueof",
+  "version": "1.0.0",
+  "description": "valueOf",
+  "keywords": [
+    "mit",
+    "javascript",
+    "ecmascript",
+    "node",
+    "npm",
+    "valueOf",
+    "10xly"
+  ],
+  "homepage": "https://github.com/10xly/valueOf#readme",
+  "bugs": {
+    "url": "https://github.com/10xly/valueOf/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/10xly/valueOf.git"
+  },
+  "license": "MIT",
+  "author": "Tj",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "convert-to-lower-case": "^3.0.1",
+    "extract-stringtag": "^1.0.1",
+    "false-value": "^2.0.6",
+    "function.prototype.exec": "^1.0.0",
+    "immediate-error": "^11.1.2",
+    "javascript-interpreter": "^1.0.0",
+    "lolite.__private.crash": "^1.1.16",
+    "lolite.isfalsy": "^1.1.16",
+    "lolite.istruthy": "^1.1.16",
+    "n0p3-es2015-cjs": "^1.0.1",
+    "noop-enterprise": "^1.0.0",
+    "true-value": "^3.0.0"
+  },
+  "devDependencies": {
+    "chai": "^6.2.2",
+    "mocha": "^11.7.5"
+  }
+}
