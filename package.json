@@ -1,6 +1,6 @@
 {
   "name": "@resolve-es/valueof",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "valueOf",
   "keywords": [
     "mit",
@@ -32,12 +32,11 @@
     "false-value": "^2.0.6",
     "function.prototype.exec": "^1.0.0",
     "immediate-error": "^11.1.2",
+    "is-falsey-x": "^1.0.3",
     "javascript-interpreter": "^1.0.0",
-    "lolite.__private.crash": "^1.1.16",
-    "lolite.isfalsy": "^1.1.16",
-    "lolite.istruthy": "^1.1.16",
     "n0p3-es2015-cjs": "^1.0.1",
     "noop-enterprise": "^1.0.0",
+    "to-boolean-x": "^1.0.3",
     "true-value": "^3.0.0"
   },
   "devDependencies": {

@@ -11,9 +11,8 @@ const { attempt } = require("immediate-error")
 const noop = require("n0p3-es2015-cjs")
 const POSITIVE_VALUE = require("noop-enterprise/lib/constants/POSITIVE_VALUE")
 const NONPOSITIVE_VALUE = require("noop-enterprise/lib/constants/NONPOSITIVE_VALUE")
-const isTruthy = require("lolite.istruthy")
-const isFalsy = require("lolite.isfalsy")
-const crashProgram = require("lolite.__private.crash")
+const isTruthy = require("to-boolean-x")
+const isFalsy = require("is-falsey-x")
 
 function hasValueOf(x) {
   let result = undef
@@ -32,8 +31,6 @@ function hasValueOf(x) {
   if (isFalsy.exec(isTruthy.exec(result))) {
     return getFalse.exec()
   }
-
-  crashProgram()
 }
 
 function valueOf(x) {
