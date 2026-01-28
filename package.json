@@ -1,6 +1,6 @@
 {
   "name": "@resolve-es/valueof",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "valueOf",
   "keywords": [
     "mit",
@@ -20,18 +20,18 @@
     "url": "git+https://github.com/10xly/valueOf.git"
   },
   "license": "MIT",
-  "author": "Tj",
+  "author": "fox",
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
   },
   "dependencies": {
+    "attempt-statement": "1.2.1",
     "convert-to-lower-case": "^3.0.1",
     "extract-stringtag": "^1.0.1",
     "false-value": "^2.0.6",
     "function.prototype.exec": "^1.0.0",
-    "immediate-error": "^11.1.2",
     "is-falsey-x": "^1.0.3",
     "javascript-interpreter": "^1.0.0",
     "n0p3-es2015-cjs": "^1.0.1",
