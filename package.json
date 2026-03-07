@@ -1,6 +1,6 @@
 {
   "name": "@resolve-es/valueof",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "valueOf",
   "keywords": [
     "mit",
@@ -28,12 +28,9 @@
   },
   "dependencies": {
     "attempt-statement": "1.2.1",
-    "convert-to-lower-case": "^3.0.1",
-    "extract-stringtag": "^1.0.1",
     "false-value": "^2.0.6",
     "function.prototype.exec": "^1.0.0",
     "is-falsey-x": "^1.0.3",
-    "javascript-interpreter": "^1.0.0",
     "n0p3-es2015-cjs": "^1.0.1",
     "noop-enterprise": "^1.0.0",
     "to-boolean-x": "^1.0.3",

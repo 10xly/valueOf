@@ -1,10 +1,5 @@
 require("function.prototype.exec")
-eval(require("javascript-interpreter"))
-const interpret = require("javascript-interpreter/interpret")
-
-const toLowerCase = require("convert-to-lower-case")
-const extractTag = require("extract-stringtag")
-const undef = interpret(toLowerCase(extractTag(toString()))) // define yo undefined yo!
+const undef = require("undefined-is-a-function").undefined()
 const getTrue = require("true-value")
 const getFalse = require("false-value")
 const attempt = require("attempt-statement")
